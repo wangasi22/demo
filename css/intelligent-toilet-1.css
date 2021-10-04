@@ -1,0 +1,671 @@
+a{
+    font-size: 14px;
+}
+hr {
+    margin: 10px 0;
+}
+.home,.theme-bright{
+    max-width: 1920px;
+    margin: 0 auto;
+}
+/* 头部 */
+header {
+    position: absolute;
+    z-index: 500;
+    width: 100%;
+}
+/* 头部logo */
+header .logo {
+    margin-left: 2em;
+    margin-top: 2.5em;
+    position: relative;
+    top: 0;
+    z-index: 5;
+}
+header .header {
+    width: 75%;
+    position: relative;
+    top: 0;
+    z-index: 5;
+    max-width: 1920px;
+}
+header.theme-bright .header nav {
+    color: #fff;
+}
+header.theme-bright .header nav a {
+    color: #fff;
+}
+/* 头部导航栏 */
+header .header nav {
+    height: 5em;
+}
+header .header nav ul li {
+    width: 9%;
+    height: 5em;
+    display: inline-block;
+    text-align: center;
+}
+
+header .header nav ul li a {
+    display: inline-block;
+    margin-top: 2.25em;
+    height: 2.75em;
+    text-decoration: none;
+    font-size: 14px;
+}
+header .header nav ul li.zoom {
+    width: 2em;
+}
+
+/* 头部最右边的 */
+.site-assistant {
+    width: 77px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+}
+.site-assistant .hor-line{
+    width: 100%;
+    height: 2px;
+    background-color: transparent;
+    position: absolute;
+    top: 78px;
+}
+.site-assistant .assistant-switch {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 77px;
+    height: 78px;
+    z-index: 1;
+}
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.site-assistant ul {
+    position: absolute;
+    left: 0;
+    top: 80px;
+    width: 100%;
+    z-index: 5;
+    display: none;
+    background: rgba(255,255,255,.8);
+}
+.site-assistant .ver-line{
+    height: 100%;
+    width: 6px;
+    background-color: transparent;
+    position: absolute;
+    right: -3px;
+    top: 0px;
+    
+}
+.site-assistant ul li {
+    font-size: .5em;
+    text-align: center;
+    padding: 1em .5em;
+    position: relative;
+}
+
+.site-assistant ul li a {
+    display: block;
+    border-bottom: 1px dashed #647b99;
+    text-decoration: none;
+    padding-bottom: .5em;
+    color: #000;
+    position: relative;
+    z-index: 1;
+}
+.site-assistant ul li a img {
+    margin-bottom: .8em;
+}
+.assistant-banner-pop {
+    position: absolute;
+    right: 80px;
+    top: 0;
+    width: 202px;
+    text-align: left;
+    display: none;
+    z-index: 2;
+}
+.site-assistant ul li .assistant-banner-pop a {
+    display: block;
+    width: 200px;
+    padding: 0;
+    border-style: none;
+    overflow: hidden;
+    line-height: 0;
+    margin-bottom: 4px;
+}
+.site-assistant ul li .assistant-banner-pop a img {
+    float: left;
+    display: block;
+    margin: 0;
+}
+.site-assistant ul li .assistant-wechat-pop {
+    position: absolute;
+    right: 80px;
+    top: -5px;
+    width: 77px;
+    z-index: 2;
+    display: none;
+    opacity: 1;
+}
+.site-assistant ul li .assistant-wechat-pop a {
+    float: left;
+    width: 77px;
+    padding: 0;
+    border-style: none;
+    overflow: hidden;
+    line-height: 5px;
+    vertical-align: middle;
+    margin-bottom: .5em;
+}
+.site-assistant ul li .assistant-wechat-pop a img {
+    float: left;
+    display: block;
+}
+.site-assistant ul li:last-child a {
+    border-bottom-style: none;
+}
+/* 导航栏隐藏的盒子 */
+header .docker-container {
+    width: 100%;
+    position: absolute;
+    min-height: 5em;
+    top: 0;
+    z-index: 2;
+    background-color: #fff;
+    opacity: .9;
+    display: none;
+}
+.col-fix-padding .col-md-12,
+ .col-fix-padding .col-md-3, 
+ .col-fix-padding .col-md-4, 
+ .col-fix-padding .col-md-5, 
+ .col-fix-padding .col-md-6, 
+ .col-fix-padding .col-md-7, 
+ .col-fix-padding .col-md-8, 
+ .col-fix-padding .col-md-9 {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+header .docker-container .docker-content {
+    margin-top: 5em;
+    background-color: #f2f2f2;
+}
+header .docker-container .docker-content .docker-container-width {
+    width: 70%;
+    text-align: left;
+}
+header .docker-container .docker-content .docker-container-width a {
+    color: #666;
+}
+header .docker-container .docker-content .docker-container-width>div{
+    display: none;
+}
+header .docker-container .docker-content .docker-container-width .docker-container-selection {
+    width: 62%;
+    margin-left: 20px;
+    padding: 1em 0;
+}
+.col-fix-padding {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+header .docker-container .docker-content .docker-container-width .docker-container-selection li,
+header .docker-container .docker-content .docker-container-width .docker-container-product li,
+header .docker-container .docker-content .docker-container-width .docker-container-support li{
+    line-height: 2em;
+}
+header .docker-container .docker-content .docker-container-width .docker-container-selection a {
+    height: 2em;
+    line-height: 2em;
+    font-size: 14px;
+    text-decoration: none;
+}
+header .docker-container .docker-content .docker-container-width .docker-container-selection a:hover{
+    color: #0d396c;
+}
+header .docker-container .docker-content .docker-container-width .docker-container-selection a span:first-child {
+    width: 28px;
+    height: 28px;
+    background: url(../images/WGY/bg-nav-selection.png) no-repeat 0 -28px;
+    display: inline-block;
+    margin-right: 8px;
+}
+header .docker-container .docker-content .docker-container-width .docker-container-selection a.cabinet span:first-child {
+    background-position: -28px -28px;
+}
+header .docker-container .docker-content .docker-container-width .docker-container-product {
+    width: 90%;
+    padding: 1em 0;
+}
+header .docker-container .docker-content .docker-container-width h5 {
+    color: #1a355e;
+    font-size: 1em;
+    border-right: 1px dashed #8f8f8f;
+}
+header .docker-container .docker-content .docker-container-width .docker-container-product li ul li a:hover {
+    color: #1a355e;
+    text-decoration: none;
+}
+header .docker-container .docker-content .docker-container-width .docker-container-support {
+    width: 62%;
+    margin-left: 180px;
+    padding: 1em 0;
+}
+header .docker-container .docker-content .docker-container-width .docker-container-support a {
+    height: 2em;
+    line-height: 2em;
+    text-decoration: none;
+}
+header .docker-container .docker-content .docker-container-width .docker-container-support a:hover {
+    color: #1a355e;
+}
+header .docker-container .docker-content .docker-container-width .docker-container-support a span:first-child {
+    width: 28px;
+    height: 28px;
+    background: url(../images/WGY/bg-nav-tas.png) no-repeat 0 -28px;
+    display: inline-block;
+    margin-right: 6px;
+}
+header .docker-container .docker-content .docker-container-width .docker-container-support a.tech:hover span:first-child {
+    background-position: 0 0;
+}
+header .docker-container .docker-content .docker-container-width .docker-container-support a.service-1350 span:first-child {
+    background-position: -28px -28px;
+}
+header .docker-container .docker-content .docker-container-width .docker-container-support a.service-1350:hover span:first-child {
+    background-position: -28px 0;
+}
+header .docker-container .docker-content .docker-container-width .docker-container-support a.six-year span:first-child {
+    background-position: -56px -28px;
+}
+header .docker-container .docker-content .docker-container-width .docker-container-support a.six-year:hover span:first-child {
+    background-position: -56px 0;
+}
+header .docker-container .docker-content .docker-container-width .docker-container-support a.faq span:first-child {
+    background-position: -84px -28px;
+}
+header .docker-container .docker-content .docker-container-width .docker-container-support a.faq:hover span:first-child {
+    background-position: -84px 0;
+}
+/* banner背景图 */
+.default-kv {
+    width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 0 auto;
+}
+
+/* 主体 */
+.container {
+    width: 950px!important;
+}
+/* 主体-路径 */
+.col-fix-padding {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.container .breadcrumb {
+    background-color: transparent;
+    margin-top: 20px;
+    margin-bottom: 3em;
+    padding: 0;
+    font-size: 12px;
+    color: #999;
+}
+.breadcrumb>li {
+    display: inline-block;
+}
+.breadcrumb a {
+    color: #999;
+    font-style: 12px;
+}
+.breadcrumb a:hover{
+    color: #999;
+    text-decoration: none;
+}
+/* 主体内容 */
+.filter {
+    width: 88%;
+    margin: 1em auto 10em auto;
+    color: #898989;
+}
+.filter a {
+    text-decoration: none;
+    color: #898989;
+}
+.filter a:hover{
+    text-decoration: none;
+    color: #898989;
+}
+.filter hr {
+    margin-top: 16px;
+}
+.filter .filter-property {
+    border-bottom: solid 1px #c9c9c9;
+    padding-bottom: .4em;
+}
+.filter .filter-property:nth-child(n+2) {
+    margin-top: 1.5em;
+}
+.filter .filter-property .control-property, .filter .filter-property h4 {
+    height: 2em;
+}
+filter .filter-property ul li {
+    height: 2.5em;
+}
+.filter .filter-property ul li a {
+    display: block;
+    color: #898989;
+    text-decoration: none;
+
+}
+.filter .filter-property ul li a:hover{
+    text-decoration: none;
+    color: #898989;
+}
+.filter .filter-property ul li a.off span {
+    background-position: 0 0;
+}
+.filter .filter-property ul li a.on span {
+    background-position: 0 -14px;
+}
+
+.filter .filter-property ul li a span {
+    float: left;
+    background: url(../images/WGY/filter-op-2020.png) no-repeat 0 0;
+    width: 14px;
+    height: 14px;
+    margin-right: .5em;
+    margin-top: .2em;
+}
+.filter .filter-property ul li a small {
+    margin-top: .5em;
+    font-size: 1em;
+}
+/* 右边部分 */
+.hot-and-new .col-md-12,
+ .hot-and-new .col-md-4, 
+ .hot-and-new .col-md-8, 
+ .product-list .col-md-12, 
+ .product-list .col-md-4, 
+ .product-list .col-md-8 {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.select-sort {
+    width: 20%;
+    padding-right: 5px;
+}
+.hot-and-new, .product-list {
+    margin-top: 1em;
+}
+.hot-and-new .product-item, .product-list .product-item {
+    position: relative;
+    top: 0;
+    left: 0;
+    background-color: #f7f9fd;
+}
+.hot-and-new .product-item .product-item-img, .product-list .product-item .product-item-img {
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    line-height: 0;
+}
+
+.hot-and-new .product-item .icon-hot-new, .product-list .product-item .icon-hot-new {
+    position: absolute;
+    right: 1.25em;
+    top: 1.25em;
+    z-index: 2;
+}
+.hot-and-new .product-item .product-item-info, .product-list .product-item .product-item-info {
+    padding: 1em;
+}
+.hot-and-new .product-item .product-item-info a, 
+.hot-and-new .product-item .product-item-info h5, 
+.product-list .product-item .product-item-info a, 
+.product-list .product-item .product-item-info h5 {
+    line-height: 1.5em;
+}
+.hot-and-new .product-item .product-item-info h5, .product-list .product-item .product-item-info h5 {
+    margin: 0;
+    color: #1b365d;
+    height: 4.5em;
+    width: 78%;
+}
+.product-item-info a:hover{
+    color: #23527c;
+    text-decoration: none;
+}
+.btn-comparison {
+    color: #757575;
+}
+.product-item-templete {
+    position: absolute;
+    top: 0;
+    z-index: 5;
+    display: none;
+    background-color: #f7f9fd;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.product-item-templete .templete-img {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    z-index: 2;
+}
+.product-item-templete .templete-opera {
+    margin: 0 auto;
+    padding: 1em;
+    position: relative;
+    bottom: 0;
+    z-index: 6;
+}
+.col-md-8 .product-item-templete .templete-opera a {
+    float: right;
+}
+ .product-item-templete .templete-opera p{
+    font-size: 14px;
+}
+.col-md-8 .product-item-templete .templete-opera a:hover,.product-item-templete .templete-img a{
+    text-decoration: none;
+}
+.product-item-templete .templete-opera a {
+    margin-top: .5em;
+}
+.btn-hegii.btn-hegii-default {
+    background-color: #1a355e;
+    color: #fff;
+}
+.btn-hegii {
+    display: inline-block;
+    padding: .5em 1.3em .5em 1.5em;
+    text-align: center;
+    position: relative;
+    text-decoration: none;
+    letter-spacing: .2em;
+}
+.col-md-3 .product-item-templete .templete-img .btn-hegii, .col-md-4 .product-item-templete .templete-img .btn-hegii {
+    position: absolute;
+    width: 56%;
+    bottom: 1em;
+    margin: 0 auto;
+    z-index: 10;
+    left: 0;
+    right: 0;
+}
+.col-md-8 .product-item-templete .templete-opera p {
+    float: left;
+    color: #1b365d;
+}
+
+.product-item-templete .templete-opera p {
+    color: #1b365d;
+    line-height: 1.5em;
+    height: 3em;
+}
+.hot-and-new .col-md-4:last-child .product-item-templete {
+    right: 0;
+}
+/* 产品列表 */
+.product-list {
+    margin-bottom: 1.5em;
+}
+.hot-and-new .col-md-12, .product-list .col-md-12 {
+    margin-top: 1.5em;
+}
+.product-list .col-md-4:nth-child(n+4) {
+    margin-top: 1.5em;
+}
+/* 分页 */
+nav.for-pagination {
+    text-align: center;
+}
+nav.for-pagination .pagination li:nth-child(n+2) a {
+    margin-left: .75em;
+    color: #999;
+}
+nav.for-pagination .pagination li.active a {
+    background-color: #334870;
+    border-color: #334870;
+    color: #fff;
+}
+nav.for-pagination .pagination li span {
+    color: #999;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 页脚 */
+footer {
+    background-color: #f6f6f6;
+    padding: 4.5em 15%;
+    color: #8d898c;
+}
+footer a {
+    color: #8d898c;
+    
+}
+footer a:hover {
+    color: #23527c;
+    text-decoration: none;
+}
+.container {
+    width: 950px!important;
+}
+footer .footer-nav li {
+    line-height: 1.75em;
+    height: 1.75em;
+    font-size: .85em;
+}
+footer .footer-nav .col-md-3 a{
+    font-size: .85em;
+}
+footer .footer-nav .col-md-4 p{
+    font-size: 14px;
+}
+footer .footer-nav .footer-logo {
+    width: 192px;
+    margin-bottom: 1.25em;
+}
+footer .footer-nav p.tel {
+    font-size: 1.75em;
+}
+footer .footer-nav .footer-social p {
+    width: 5em;
+    height: 23px;
+    float: left;
+    line-height: 170%;
+}
+footer .footer-nav .footer-social .social-wechat, footer .footer-nav .footer-social .social-weibo {
+    width: 23px;
+    height: 23px;
+    float: left;
+    position: relative;
+    z-index: 2;
+}
+footer .footer-nav .footer-social .social-wechat a, footer .footer-nav .footer-social .social-weibo a {
+    width: 23px;
+    height: 23px;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    background: url(../images/WGY/icon-footer-social.png) no-repeat 0 0;
+    text-indent: -100em;
+}
+footer .footer-nav .footer-social .social-wechat .social-wechat-pop {
+    display: none;
+    position: absolute;
+    width: 200px;
+    height: 230px;
+    bottom: 0;
+    left: -86px;
+}
+footer .footer-nav .footer-social .social-weibo {
+    margin-left: .5em;
+}
+footer .footer-nav .footer-social .social-weibo a {
+    background-position: 0 -23px;
+}
+footer .copyright {
+    margin-top: 2em;
+    font-size: .85em;
+}
+footer .copyright ul li {
+    float: left;
+    padding: 0 .5em;
+    border-right: 1px solid #948c88;
+}
+footer .copyright ul li a{
+    font-size: .85em;
+}
+footer .copyright small {
+    color: #a3a3a3;
+}
+footer .copyright .col-md-7 {
+    text-align: right;
+}
+
+
+/* 回到顶部------------------- */
+.box{
+    height: 1500px;
+}
+.go-top {
+    position: fixed;
+    width: 41px;
+    height: 41px;
+    bottom: 0;
+    right: 0;
+    z-index: 1000;
+    display: none;
+}
